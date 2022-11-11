@@ -1,4 +1,7 @@
 
+using Application.Activities;
+using Application.Core;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
 
@@ -21,6 +24,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 var connectionString = builder.Configuration.GetConnectionString("Default");
 builder.Services.AddDbContext<DataContext>(opt => opt.UseSqlite(connectionString));
+builder.Services.AddMediatR(typeof(List).Assembly);
+builder.Services.AddAutoMapper(typeof(AutoMapperProfiles).Assembly);
 var app = builder.Build();
 using var scope = app.Services.CreateScope();
 var services = scope.ServiceProvider;
@@ -43,7 +48,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.Use(async (context, next) => {
+    System.Console.WriteLine(context.Request.Headers.Origin);
+    await next();
+});
 app.UseHttpsRedirection();
 app.UseRouting();
 app.UseCors();
