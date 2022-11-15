@@ -23,7 +23,7 @@ public class Create
 
         public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
         {
-            await _context.Activities.AddAsync(request.Activity!);
+            await _context.Activities.AddAsync(request.Activity!, cancellationToken);
             await _context.SaveChangesAsync();
             return Unit.Value;
 

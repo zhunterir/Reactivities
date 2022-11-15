@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Projects\\DotNetProjects\\Reactivities\\Application\\Application.csproj": {}
+    "D:\\Projects\\DotNetProjects\\Reactivities\\Application\\Application.csproj": {}
   },
   "projects": {
-    "d:\\Projects\\DotNetProjects\\Reactivities\\Application\\Application.csproj": {
+    "D:\\Projects\\DotNetProjects\\Reactivities\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Projects\\DotNetProjects\\Reactivities\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Projects\\DotNetProjects\\Reactivities\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "d:\\Projects\\DotNetProjects\\Reactivities\\Application\\Application.csproj",
+        "projectPath": "D:\\Projects\\DotNetProjects\\Reactivities\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "d:\\Projects\\DotNetProjects\\Reactivities\\Application\\obj\\",
+        "outputPath": "D:\\Projects\\DotNetProjects\\Reactivities\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,17 +21,18 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "d:\\Projects\\DotNetProjects\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "d:\\Projects\\DotNetProjects\\Reactivities\\Domain\\Domain.csproj"
+              "D:\\Projects\\DotNetProjects\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projects\\DotNetProjects\\Reactivities\\Domain\\Domain.csproj"
               },
-              "d:\\Projects\\DotNetProjects\\Reactivities\\Persistence\\Persistence.csproj": {
-                "projectPath": "d:\\Projects\\DotNetProjects\\Reactivities\\Persistence\\Persistence.csproj"
+              "D:\\Projects\\DotNetProjects\\Reactivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\Projects\\DotNetProjects\\Reactivities\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -74,14 +75,14 @@
         }
       }
     },
-    "d:\\Projects\\DotNetProjects\\Reactivities\\Domain\\Domain.csproj": {
+    "D:\\Projects\\DotNetProjects\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Projects\\DotNetProjects\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Projects\\DotNetProjects\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "d:\\Projects\\DotNetProjects\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Projects\\DotNetProjects\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "d:\\Projects\\DotNetProjects\\Reactivities\\Domain\\obj\\",
+        "outputPath": "D:\\Projects\\DotNetProjects\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -128,14 +129,14 @@
         }
       }
     },
-    "d:\\Projects\\DotNetProjects\\Reactivities\\Persistence\\Persistence.csproj": {
+    "D:\\Projects\\DotNetProjects\\Reactivities\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Projects\\DotNetProjects\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "D:\\Projects\\DotNetProjects\\Reactivities\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "d:\\Projects\\DotNetProjects\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectPath": "D:\\Projects\\DotNetProjects\\Reactivities\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "d:\\Projects\\DotNetProjects\\Reactivities\\Persistence\\obj\\",
+        "outputPath": "D:\\Projects\\DotNetProjects\\Reactivities\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -152,8 +153,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "d:\\Projects\\DotNetProjects\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "d:\\Projects\\DotNetProjects\\Reactivities\\Domain\\Domain.csproj"
+              "D:\\Projects\\DotNetProjects\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projects\\DotNetProjects\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }

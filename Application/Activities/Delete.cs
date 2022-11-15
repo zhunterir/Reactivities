@@ -22,9 +22,10 @@ public class Delete
 
         public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
         {
-            var activity = await _context.Activities.FindAsync(request.Id); 
+            var activity =  await _context.Activities.FindAsync(new object []{request.Id} , cancellationToken); 
 
             _context.Activities.Remove(activity!);
+            await _context.SaveChangesAsync();
             return Unit.Value;
         }
     }
